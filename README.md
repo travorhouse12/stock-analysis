@@ -12,12 +12,13 @@ After refactoring the code, we were able to capture better insights in a fractio
 Based on our analysis of Green Stocks in 2017, we can conclude that 2017 was an excellent year to invest in green energy stocks. We can see that 11 of the 12 stocks we looked at had a positive return. DQ was the most successful, with a return of 199.4%, despite being traded less frequently. When we first wrote our VBA script, it had a total run time of 0.63 seconds for all Stocks in 2017. However, after we refactored the code to only one for loop, we significantly reduced our run time to 0.14 seconds. This quick formula will enable us to loop through data much faster as we take on larger data sets such as the entire stock market.
 
 You can see the exact run time for 2017 in the screenshot below:
-
+![](Resources/VBA_Challenge_2017.png)
 
 ## Green Stock Performance in 2018
 In 2018, the majority of green stocks performed poorly, according to our analysis. Out of the 12 stocks we looked at, we only identified two stocks with a positive net return. 2018 was a lousy year for DQ, with a return of -62.2%. RUN was the only stock that performed well. Our first line of code took 0.66 seconds to execute; and after we refactored and committed the code, it only took 0.14 seconds to execute and return the results, making our analysis faster. We are now prepared to take on larger data sets.
 
 You can see the exact run time for 2017 in the screenshot below:
+![](Resources/VBA_Challenge_2018.png)
 
 # Summary
 Based on our findings, we can conclude that refactoring the code reduced run time in both 2017 and 2018. In 2017, we reduced the run time from 0.63 seconds to 0.14 seconds, and in 2018, we reduced it from 0.66 seconds to 0.14 seconds. In general, refactoring the code improves performance, run time, and helps us understand the code better and debug quicker. 
